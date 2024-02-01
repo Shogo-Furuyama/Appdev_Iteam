@@ -4,42 +4,27 @@
 .title{
   font-size: 36px;
   text-align: center;
-  margin: 10%;
+  margin: 50%;
+  margin-top: 50%;
 }
 
-.circle-button {
+.circle_button {
   width: 250px; /* 円の直径を指定 */
   height: 250px; /* 円の直径を指定 */
   background-color: red; /* ボタンの背景色 */
   border-radius: 50%; /* border-radiusを50%に設定して円形にする */
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff; /* ボタンのテキスト色 */
   text-decoration: none;
-  margin: 10%;
+  margin: 0%;
+  margin-top: 50%;
 }
 
-.ao-button{
-  width: 100px;
-  height: 50px;
-  background-color: blue;
-  border-radius: 10px; /* 丸い角の半径を指定 */
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  cursor: pointer; /* ボタンとして認識されるようにカーソルを変更 */
-  border: none; /* ボーダーを削除 */
-  outline: none; /* アウトラインを削除 */
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
 
-.shiro-button{
+
+.shiro_button{
   width: 100px;
   height: 50px;
   background-color: #ffffff;
@@ -56,8 +41,6 @@
   margin-left: 30px;
 }
 
-.button-yoko{
-  display: flex;
-}
+
 
 

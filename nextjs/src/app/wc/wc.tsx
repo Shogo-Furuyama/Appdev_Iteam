@@ -1,32 +1,36 @@
 // wc.tsx
 import Head from 'next/head';
-import Map_iframe from '../../data/iframe.json';
-import Opendata from '../../data/opendata.json';
-import Maps from '../../data/test.json';
+import styles from '../styles/wc.module.css'
+import MyApp from '../../app/app';
+import Maps from '../../../data/toilet.json';
 
 
-const WCPage = () => {
+function WCPage() {
   return (
-    <div>
+    <div className={styles.div_backgroud}>
+      <h1 className={styles.h1_text}>トイレ一覧</h1>
+
       <Head>
         <title>WC Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <h1>トイレへようこそ！</h1>
-      <p>ここはトイレページです。何かトイレに関する内容をここに書くことができます。</p>
+      
 
       <div>
+
+      
+
         <ul>
           {Maps.map((data, index) => (
             <li key={index}>
               <p>{data.施設名}</p>
               <p>{data.都道府県} {data.市区町村} {data.番地}</p>
-              {data.Map_iframe}
+              <iframe src={data.Map_iframe} width="300" height="250" style={{ marginRight: '10px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </li>
           ))}
         </ul>
       </div>
-      
+
       {/* その他のページ内容 */}
     </div>
   );

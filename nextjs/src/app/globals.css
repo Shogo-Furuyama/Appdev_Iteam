@@ -30,12 +30,12 @@ h1 {
   margin: 10%;
 }
 
-.circle-button {
+.circle_button {
   width: 250px; /* 円の直径を指定 */
   height: 250px; /* 円の直径を指定 */
   background-color: red; /* ボタンの背景色 */
   border-radius: 50%; /* border-radiusを50%に設定して円形にする */
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff; /* ボタンのテキスト色 */
@@ -84,3 +84,8 @@ h1 {
 }
 
 
+
+p{
+  font-size:40px;
+  border-color:#ffffff;
+}
