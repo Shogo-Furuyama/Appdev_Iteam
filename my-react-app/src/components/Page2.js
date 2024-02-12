@@ -6,6 +6,8 @@ const Page2 = () => {
       <h2>This is Page 21</h2>
       <p>Content for Page 2 goes here.</p>
     </div>
+
+    
   );
 };
 

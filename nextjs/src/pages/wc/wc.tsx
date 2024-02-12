@@ -4,7 +4,6 @@ import styles from '../styles/wc.module.css'
 import MyApp from '../../app/app';
 import Maps from '../../../data/toilet.json';
 
-
 function WCPage() {
   return (
     <div className={styles.div_backgroud}>

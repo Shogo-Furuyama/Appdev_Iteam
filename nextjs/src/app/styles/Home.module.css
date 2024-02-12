@@ -9,8 +9,8 @@
 }
 
 .circle_button {
-  width: 250px; /* 円の直径を指定 */
-  height: 250px; /* 円の直径を指定 */
+  width: 100%; /* 円の直径を指定 */
+  height: 100%; /* 円の直径を指定 */
   background-color: red; /* ボタンの背景色 */
   border-radius: 50%; /* border-radiusを50%に設定して円形にする */
   display: flex;

@@ -15,7 +15,7 @@ function Page() {
       </Head>
       <p>トイレの神様</p>
 
-      <a href={"/wc/wc"} className={styles.circle_button}>やばいもれそう！！</a>
+      <a href={"../wc/wc"} className={styles.circle_button}>やばいもれそう！！</a>
       {/*
       <div>
         <ul>

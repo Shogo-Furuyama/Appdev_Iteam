@@ -25,12 +25,12 @@ h1 {
 
 
 .title{
-  font-size: 36px;
+  font-size: 100px;
   text-align: center;
   margin: 10%;
 }
 
-.circle_button {
+.circle-button {
   width: 250px; /* 円の直径を指定 */
   height: 250px; /* 円の直径を指定 */
   background-color: red; /* ボタンの背景色 */
@@ -86,6 +86,6 @@ h1 {
 
 
 p{
-  font-size:40px;
+  font-size:300%;
   border-color:#ffffff;
 }
