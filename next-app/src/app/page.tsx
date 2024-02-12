@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import styles from './styles/Home.module.css'
-import MyApp from '../app/app';
+import styles from '../../styles/Home.module.css';
+import Map_iframe from '../../data/iframe.json';
+import Opendata from '../../data/opendata.json';
 import Maps from '../../data/toilet.json';
 
-function Page() {
+const Page = () => {
 
   return (
     <div>
@@ -15,8 +16,10 @@ function Page() {
       </Head>
       <p>トイレの神様</p>
 
-      <a href={"/wc/wc"} className={styles.circle_button}>やばいもれそう！！</a>
-      {/*
+      <Link href="/index" legacyBehavior >
+        <a className={styles.circleButton}>やばいもれそう！！</a>
+      </Link>
+
       <div>
         <ul>
           {Maps.map((data, index) => (
@@ -28,7 +31,7 @@ function Page() {
           ))}
         </ul>
       </div>
-          */}
+
     </div>
   );
 }

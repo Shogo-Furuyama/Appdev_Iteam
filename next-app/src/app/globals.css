@@ -30,12 +30,12 @@ h1 {
   margin: 10%;
 }
 
-.circle_button {
+.circle-button {
   width: 250px; /* 円の直径を指定 */
   height: 250px; /* 円の直径を指定 */
   background-color: red; /* ボタンの背景色 */
   border-radius: 50%; /* border-radiusを50%に設定して円形にする */
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   color: #ffffff; /* ボタンのテキスト色 */
@@ -81,11 +81,4 @@ h1 {
 
 .button-yoko{
   display: flex;
-}
-
-
-
-p{
-  font-size:40px;
-  border-color:#ffffff;
 }
