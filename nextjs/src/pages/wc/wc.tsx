@@ -1,7 +1,7 @@
 // wc.tsx
 import Head from 'next/head';
 import styles from '../styles/wc.module.css'
-import MyApp from '../../app/app';
+import MyApp from './../../app/app';
 import Maps from '../../../data/toilet.json';
 
 

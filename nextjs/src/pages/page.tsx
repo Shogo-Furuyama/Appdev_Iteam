@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import styles from './styles/Home.module.css'
-import MyApp from './app';
+import MyApp from './../app/app';
 import Maps from '../../data/toilet.json';
 
 function Page() {
@@ -15,7 +15,7 @@ function Page() {
       </Head>
       <p>トイレの神様</p>
 
-      <a href={"./../pages/wc/wc.tsx"} className={styles.circle_button}>やばいもれそう！！</a>
+      <a href={"./wc/wc.tsx"} className={styles.circle_button}>やばいもれそう！！</a>
       {/*
       <div>
         <ul>
