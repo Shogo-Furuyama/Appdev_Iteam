@@ -25,7 +25,7 @@ function WCPage() {
             <li key={index}>
               <p>{data.施設名}</p>
               <p>{data.都道府県} {data.市区町村} {data.番地}</p>
-              <iframe src={data.Map_iframe} width="300" height="250" style={{ marginRight: '10px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src={data.Map_iframe} width="300" height="250" style={{ marginRight: '10px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </li>
           ))}
         </ul>
